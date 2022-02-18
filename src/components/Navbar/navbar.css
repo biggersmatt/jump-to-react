@@ -1,15 +1,20 @@
 .navbar-wrapper {
   display: flex;
-  justify-content: space-around;
   align-items: center;
   background-color: var(--tan);
   min-height: 10vh;
   border-bottom: 5px solid var(--oxford);
 }
+.logo-wrapper {
+  flex-grow: 1;
+  text-align: center;
+}
 .chef-image {
-  height: 50px;
+  height: 7vh;
   border-radius: 10px;
 }
 .buttons {
-  display:flex;
+  flex-grow: 0.5;
+  display: flex;
+  justify-content: space-around;
 }
