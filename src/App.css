@@ -1,9 +1,23 @@
+:root {
+  --grain: #d7cec7;
+  --blackboard: #565656;
+  --oxford: #76323f;
+  --tan: #c09f80;
+}
 * {
   padding: 0;
   margin: 0;
 }
-
 .app-wrapper {
-  background-color: blue;
+  display: flex;
+  flex-direction: column;
   min-height: 100vh;
+}
+.app-content {
+  flex-grow: 1;
+  background-color: var(--grain);
+  height: 100%;
+}
+.shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

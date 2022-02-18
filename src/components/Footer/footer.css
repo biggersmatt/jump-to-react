@@ -1,0 +1,5 @@
+.footer-wrapper {
+  background-color: var(--tan);
+  text-align: center;
+  border-top: 5px solid var(--oxford);
+}

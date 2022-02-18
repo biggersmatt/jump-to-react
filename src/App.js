@@ -1,16 +1,17 @@
+import Homepage from './pages/Homepage/homepage';
+import Navbar from './components/Navbar/navbar';
+import Footer from './components/Footer/footer';
 
-
-import Button from '@mui/material/Button';
-
-import Homepage from './Homepage/homepage';
-
-require ('./App.css');
+require('./App.css');
 
 export default function App() {
   return (
     <div className='app-wrapper'>
-      <Button variant='contained'>Hello World</Button>
-      {/* <Homepage></Homepage> */}
+      <Navbar/>
+      <div className='app-content'>
+        <Homepage/>
+      </div>
+      <Footer/>
     </div>
   );
 }

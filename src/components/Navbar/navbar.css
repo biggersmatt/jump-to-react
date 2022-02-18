@@ -1,0 +1,15 @@
+.navbar-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--tan);
+  min-height: 10vh;
+  border-bottom: 5px solid var(--oxford);
+}
+.chef-image {
+  height: 50px;
+  border-radius: 10px;
+}
+.buttons {
+  display:flex;
+}
