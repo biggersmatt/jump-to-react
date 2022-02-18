@@ -1,0 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.app-wrapper {
+  background-color: blue;
+  min-height: 100vh;
+}
