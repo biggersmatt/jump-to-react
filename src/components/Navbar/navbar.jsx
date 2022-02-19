@@ -30,6 +30,17 @@ export default function Navbar() {
               variant='contained' 
               size='small' 
               onClick={() => {
+                console.log("Home Pressed");
+              }}
+            >
+              Home
+            </Button>
+          </Link>
+          <Link to='/login'>
+            <Button 
+              variant='contained' 
+              size='small' 
+              onClick={() => {
                 console.log("Login Pressed");
               }}
             >

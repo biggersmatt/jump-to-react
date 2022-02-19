@@ -16,6 +16,10 @@
   background-color: var(--tan);
   margin-bottom: 75px;
 }
+.login-container p {
+  width: 80%;
+  margin: -15px 0;
+}
 .login-input {
   display: flex;
   justify-content: space-around;
