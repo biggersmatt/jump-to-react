@@ -7,6 +7,7 @@ import Homepage from './pages/Homepage/homepage';
 import Navbar from './components/Navbar/navbar';
 import Footer from './components/Footer/footer';
 
+// CSS
 require('./App.css');
 
 export default function App() {

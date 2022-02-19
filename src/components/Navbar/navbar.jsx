@@ -1,8 +1,9 @@
+// Material UI
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-
 import Button from '@mui/material/Button';
-import Chef from '../../images/chef.jpeg';
 
+// Images and CSS
+import Chef from '../../images/chef.jpeg';
 require('./navbar.css');
 
 export default function Navbar() {

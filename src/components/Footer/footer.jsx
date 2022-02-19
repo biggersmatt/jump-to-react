@@ -1,3 +1,4 @@
+// CSS
 require('./footer.css');
 
 export default function Footer() {
