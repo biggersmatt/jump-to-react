@@ -1,5 +1,5 @@
 // CSS
-require('./homepage.css');
+require('./home.css');
 
 export default function Homepage() {
   return (
