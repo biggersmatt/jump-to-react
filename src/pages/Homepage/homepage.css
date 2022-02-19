@@ -3,6 +3,9 @@
   flex-direction: column;
   justify-content: center;
   height: 50vh;
+  min-width: 250px;
+  width: 50%;
+  margin: 0 auto;
   padding: 0 20px;
 }
 .wrapper h1 {

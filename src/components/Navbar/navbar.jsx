@@ -1,3 +1,6 @@
+// React
+import { Link } from 'react-router-dom';
+
 // Material UI
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Button from '@mui/material/Button';
@@ -22,24 +25,28 @@ export default function Navbar() {
       </div>
       <div className="buttons">
         <ThemeProvider theme={theme}>
-          <Button 
-            variant='contained' 
-            size='small' 
-            onClick={() => {
-              console.log("Login Pressed");
-            }}
-          >
-            Login
-          </Button>
-          <Button
-            variant='contained'
-            size='small'
-            onClick={() => {
-              console.log('Signup Pressed');
-            }}
-          >
-            Signup
-          </Button>
+          <Link to='/'>
+            <Button 
+              variant='contained' 
+              size='small' 
+              onClick={() => {
+                console.log("Login Pressed");
+              }}
+            >
+              Login
+            </Button>
+          </Link>
+          <Link to='/signup'>
+            <Button
+              variant='contained'
+              size='small'
+              onClick={() => {
+                console.log('Signup Pressed');
+              }}
+            >
+              Signup
+            </Button>
+          </Link>
         </ThemeProvider>
       </div>
     </div>

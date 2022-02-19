@@ -1,7 +1,11 @@
-//Material UI
+// React
+import { Routes, Route } from 'react-router-dom';
+
+// Material UI
 
 // Pages
 import Homepage from './pages/Homepage/homepage';
+import Signup from './pages/Signup/signup';
 
 // Components
 import Navbar from './components/Navbar/navbar';
@@ -15,7 +19,10 @@ export default function App() {
     <div className='app-wrapper'>
       <Navbar/>
       <div className='app-content'>
-        <Homepage/>
+        <Routes>
+          <Route path='/' element={<Homepage/>} />
+          <Route path='/signup' element={<Signup/>} />
+        </Routes>
       </div>
       <Footer/>
     </div>
