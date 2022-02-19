@@ -1,7 +1,7 @@
 .navbar-wrapper {
   display: flex;
   align-items: center;
-  background-color: var(--tan);
+  background-color: var(--blackboard);
   min-height: 10vh;
   border-bottom: 5px solid var(--oxford);
 }

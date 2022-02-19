@@ -1,8 +1,6 @@
 // React
 import { Routes, Route } from 'react-router-dom';
 
-// Material UI
-
 // Pages
 import Home from './pages/Home/home';
 import Signup from './pages/Signup/signup';
