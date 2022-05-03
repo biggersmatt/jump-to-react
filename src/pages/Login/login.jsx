@@ -6,8 +6,8 @@ export default function Login() {
     <div className='login-wrapper'>
       <div className="login-container">
         <h1>Jump to Recipe</h1>
-        <p>Review notes from last time.</p>
-        <p>Take notes this time.</p>
+        <p>Review notes from last time</p>
+        <p>Take notes for next time</p>
         <div className='login-input'>
           <h5>Name</h5>
           <input type="text" />
