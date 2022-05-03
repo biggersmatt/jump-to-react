@@ -1,7 +1,5 @@
 .dashboard-wrapper {
-  /* Navbar 10vh + 5px of border */
-  /* Footer 3vh + 5px of border */
-  height: calc(100vh - (13vh + 10px));
+  height: 85vh;
   background-color: yellow;
   display: flex;
   flex-direction: column;
