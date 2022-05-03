@@ -13,6 +13,12 @@
   height: 7vh;
   border-radius: 10px;
 }
+.nav-links {
+  padding-top: 6px;
+  text-decoration: none;
+  font-weight: 700;
+  color: white;
+}
 .buttons {
   flex-grow: 0.5;
   display: flex;

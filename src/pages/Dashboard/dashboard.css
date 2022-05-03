@@ -1,6 +1,5 @@
 .dashboard-wrapper {
   height: 85vh;
-  background-color: yellow;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
