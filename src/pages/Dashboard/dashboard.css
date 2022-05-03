@@ -1,3 +1,33 @@
 .dashboard-wrapper {
-  color: orange;
+  /* Navbar 10vh + 5px of border */
+  /* Footer 3vh + 5px of border */
+  height: calc(100vh - (13vh + 10px));
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.dashboard-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+.dashboard-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-grow: 2;
+  margin-bottom: 20px;
+}
+.dashboard-link {
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 20px;
 }

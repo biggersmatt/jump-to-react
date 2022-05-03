@@ -2,6 +2,7 @@
   background-color: var(--blackboard);
   color: var(--tan);
   text-align: center;
+  height: 3vh;
   border-top: 5px solid var(--oxford);
   padding: 5px 0;
 }
