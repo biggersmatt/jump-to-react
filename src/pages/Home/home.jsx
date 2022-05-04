@@ -15,7 +15,7 @@ export default function Homepage() {
       <Link to='/myrecipes' className='dashboard-link'>My Recipes</Link>
       <Link to='/newrecipe' className='dashboard-link'>New Recipe</Link>
       <Link to='/favorites' className='dashboard-link'>Favorite Recipes</Link>
-      <Link to='/recipesbyothers' className='dashboard-link'>Recipes by Others</Link>
+      <Link to='/others' className='dashboard-link'>Recipes by Others</Link>
       <Link to='/everyonesrecipes' className='dashboard-link'>Everyones Recipes</Link>
     </div>
   </div>
