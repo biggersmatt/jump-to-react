@@ -7,8 +7,9 @@ import Signup from './pages/Signup/signup';
 import Login from './pages/Login/login';
 import MyRecipes from './pages/MyRecipes/myRecipes';
 import NewRecipe from './pages/NewRecipe/newRecipe';
-import FavoriteRecipes from './pages/FavoriteRecipes/favoriteRecipes';
+import Favorites from './pages/Favorites/favorites';
 import Others from './pages/Others/others';
+import Everyones from './pages/Everyones/everyones';
 
 // Components
 import Navbar from './components/Navbar/navbar';
@@ -28,8 +29,9 @@ export default function App() {
           <Route path='/login' element={<Login/>}/>
           <Route path='/myrecipes' element={<MyRecipes/>}/>
           <Route path='/newrecipe' element={<NewRecipe/>}/>
-          <Route path='/favorites' element={<FavoriteRecipes/>}/>
+          <Route path='/favorites' element={<Favorites/>}/>
           <Route path='/others' element={<Others/>}/>
+          <Route path='/everyones' element={<Everyones/>}/>
         </Routes>
       </div>
       <Footer/>

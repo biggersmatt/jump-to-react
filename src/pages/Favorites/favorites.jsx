@@ -1,5 +1,5 @@
 // CSS 
-require('./favoriteRecipes.css');
+require('./favorites.css');
 
 export default function FavoriteRecipes() {
   return (
