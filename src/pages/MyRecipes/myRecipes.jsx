@@ -1,3 +1,6 @@
+// React
+import { Link } from 'react-router-dom';
+
 // CSS
 require('./myRecipes.css');
 
@@ -17,16 +20,36 @@ export default function MyRecipes() {
       </div>
       <div className='my-recipes-content'>
         <ul className='my-recipes-list'>
-          <li className='my-recipes-list-item'>Tofu Scramble</li>
-          <li className='my-recipes-list-item'>Peanut Sauce Tofu</li>
-          <li className='my-recipes-list-item'>Lemon Broccolini</li>
-          <li className='my-recipes-list-item'>Cardamon Star Anise Steamed White Rice</li>
-          <li className='my-recipes-list-item'>Spicy Garlic Green Beans</li>
-          <li className='my-recipes-list-item'>Baked Breakfast Beans</li>
-          <li className='my-recipes-list-item'>Oatmeal</li>
-          <li className='my-recipes-list-item'>Vegan Street Tacos</li>
-          <li className='my-recipes-list-item'>The Stew</li>
-          <li className='my-recipes-list-item'>Chipotle Cripsy Tater Tots</li>
+          <li className='my-recipes-list-item'>
+            <Link to='/:userId/:recipeId' className='no-link-styles'>Tofu Scramble</Link>
+          </li>
+          <li className='my-recipes-list-item'>
+            <Link to='/:userId/:recipeId' className='no-link-styles'>Peanut Sauce Tofu</Link>
+          </li>
+          <li className='my-recipes-list-item'>
+            <Link to='/:userId/:recipeId' className='no-link-styles'>Lemon Broccolini</Link>
+          </li>
+          <li className='my-recipes-list-item'>
+            <Link to='/:userId/:recipeId' className='no-link-styles'>Cardamon Star Anise Steamed White Rice</Link>
+          </li>
+          <li className='my-recipes-list-item'>
+            <Link to='/:userId/:recipeId' className='no-link-styles'>Spicy Garlic Green Beans</Link>
+          </li>
+          <li className='my-recipes-list-item'>
+            <Link to='/:userId/:recipeId' className='no-link-styles'>Baked Breakfast Beans</Link>
+          </li>
+          <li className='my-recipes-list-item'>
+            <Link to='/:userId/:recipeId' className='no-link-styles'>Oatmeal</Link>
+          </li>
+          <li className='my-recipes-list-item'>
+            <Link to='/:userId/:recipeId' className='no-link-styles'>Vegan Street Tacos</Link>
+          </li>
+          <li className='my-recipes-list-item'>
+            <Link to='/:userId/:recipeId' className='no-link-styles'>The Stew</Link>
+          </li>
+          <li className='my-recipes-list-item'>
+            <Link to='/:userId/:recipeId' className='no-link-styles'>Chipotle Cripsy Tater Tots</Link>
+          </li>
         </ul>
       </div>
     </div>
