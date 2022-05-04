@@ -1,5 +1,4 @@
 .dashboard-wrapper {
-  height: 85vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -10,14 +9,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-grow: 1;
+  padding: 20px 0;
+}
+.dashboard-title {
+  margin: 15px 0;
 }
 .dashboard-cards {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  flex-grow: 2;
-  margin-bottom: 20px;
 }
 .dashboard-link {
   background-color: white;
@@ -27,4 +27,5 @@
   border: 2px solid black;
   border-radius: 10px;
   padding: 20px;
+  margin: 20px 0;
 }
