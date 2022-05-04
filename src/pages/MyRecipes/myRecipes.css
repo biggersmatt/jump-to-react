@@ -4,9 +4,9 @@
   flex-direction: column;
 }
 .my-recipes-header {
-  background-color: aqua;
   flex-grow: .75;
   padding: 10px;
+  border-bottom: 2px dashed black;
 }
 .my-recipes-new {
   text-align: right;
@@ -22,6 +22,12 @@
   text-align: center;
 }
 .my-recipes-content {
-  background-color: pink;
   flex-grow: 10;
+  padding: 15px 0 0 20px;
+}
+.my-recipes-list {
+  list-style-type: none;
+}
+.my-recipes-list-item {
+  padding: 5px 0;
 }

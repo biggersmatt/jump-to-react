@@ -16,17 +16,17 @@ export default function MyRecipes() {
         </select>
       </div>
       <div className='my-recipes-content'>
-        <ul>
-          <li>Tofu Scramble</li>
-          <li>Peanut Sauce Tofu</li>
-          <li>Lemon Broccolini</li>
-          <li>Cardamon Star Anise Steamed White Rice</li>
-          <li>Spicy Garlic Green Beans</li>
-          <li>Baked Breakfast Beans</li>
-          <li>Oatmeal</li>
-          <li>Vegan Street Tacos</li>
-          <li>The Stew</li>
-          <li>Chipotle Cripsy Tater Tots</li>
+        <ul className='my-recipes-list'>
+          <li className='my-recipes-list-item'>Tofu Scramble</li>
+          <li className='my-recipes-list-item'>Peanut Sauce Tofu</li>
+          <li className='my-recipes-list-item'>Lemon Broccolini</li>
+          <li className='my-recipes-list-item'>Cardamon Star Anise Steamed White Rice</li>
+          <li className='my-recipes-list-item'>Spicy Garlic Green Beans</li>
+          <li className='my-recipes-list-item'>Baked Breakfast Beans</li>
+          <li className='my-recipes-list-item'>Oatmeal</li>
+          <li className='my-recipes-list-item'>Vegan Street Tacos</li>
+          <li className='my-recipes-list-item'>The Stew</li>
+          <li className='my-recipes-list-item'>Chipotle Cripsy Tater Tots</li>
         </ul>
       </div>
     </div>
