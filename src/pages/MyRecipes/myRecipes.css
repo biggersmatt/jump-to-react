@@ -1,3 +1,27 @@
-.myRecipes-header {
-  color: red;
+.my-recipes-wrapper {
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+}
+.my-recipes-header {
+  background-color: aqua;
+  flex-grow: .75;
+  padding: 10px;
+}
+.my-recipes-new {
+  text-align: right;
+}
+.my-recipes-description {
+  margin: 10px 0;
+}
+.my-recipes-label {
+  margin-right: 10px;
+}
+#cuisine {
+  width: 40%;
+  text-align: center;
+}
+.my-recipes-content {
+  background-color: pink;
+  flex-grow: 10;
 }
